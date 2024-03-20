@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html  lang="en">
+   <head>
+    <meta charset ="UTF -8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>Student Registration Form </title>
+    </head>
+    <body>
+        <h2>Student Registration Form</h2>
+        <form action="Registration_process.php"
+        <label for="name">Name:</label><br>
+        <input type="text" Id="name" name="name" required><br><br>
+
+        <label for="date of birth">Date of Birth</label><br>
+        <input type="date" Id="date of birth" name="date of birth" placeholder="Enter your date of Birth"><br><br>
+
+        <label for="gender">Gender:</label><br>
+         <select id="gender" name="gender" required>
+             <option value=""><Select></option>
+             <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+            </select><br><br>
+
+<label for="address">Address:</label><br>
+ <input type="text" id="address" name="address" required><br><br>
+
+
+<label for="telephone">Telephone:</label><br>
+<input type="telphone" id="telephone" name="telephone" required><br><br>
+
+<label for="email">Email address:</label><br>
+<input type="email" id="email" name="email" required><br><br>
+
+<label for="course">Course:</label><br>
+<input type="course" id="course" name="course" required><br><br>
+
+<button type="submit">Submit</button>
+<button type="cancel">Cancel</button>
+        </form>
+        <script>
+            function cancelRegistration() {
+                window.location.href = "index.html";
+            }
+        </script>
+
+</body>
+</html>
